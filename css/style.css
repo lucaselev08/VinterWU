@@ -5,15 +5,13 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:15% 1fr 10fr;
-    background-color: white;
+    background-color: #ffffff;
     grid-template-areas:
         "he he he"
         "as ma as2"
         "fo fo fo ";
 
-    
-
-
+    color: white;
 }
 
 
@@ -21,38 +19,113 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: green;
+    background-color: #8BC34A;
     grid-area: he;
-    border-radius:10px;
+
+    font-family: "Chewy", system-ui;
+    font-weight: 600;
+    font-style: normal;
 }
 
+header a{
+    background-color: #6ac503;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 3px 5px 0 rgb(81, 81, 81);
+    border-radius: 15px;
+}
+
+header a:hover{
+    transform: scaleY(-5px);
+    box-shadow: 0 15px 20px black;
+    /* överdrivet, för att se */ 
+}
 
 main {
-    background-color: grey;
-
-    grid-area: as;
-    border-radius:10px;
+    background-color: #8BC34A;
+    text-align: center;
+    grid-area: ma;
+    border-radius:30px;
+   box-shadow: 0 15px 20px black;
+    
+    font-family: "Chewy", system-ui;
+  font-weight: 300;
+  font-style: normal;
 }
 
 aside {
-    background-color: grey;
+    background-color: #8BC34A;
+    text-align: center;
+    grid-area: as;
+    border-radius:30px;
 
-    grid-area: ma;
-    border-radius:10px;
+    font-family: "Chewy", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    box-shadow: 0 15px 20px black;
 }
 
-aside2 {
-    background-color: grey;
-
+aside2{
+    background-color: #8BC34A;
+    text-align: center;
     grid-area: as2;
-    border-radius:10px;
+    border-radius:30px;
+
+    font-family: "Chewy", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    box-shadow: 0 15px 20px black;
 }
 
 footer { 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: green;
+    background-color: #8BC34A;
     grid-area: fo;
     border-radius:10px;
+
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
+img{
+    width: 200px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    text-shadow: 5px;
+}
+
+
+.sok-ruta {
+    display: flex;
+    align-items: center;
+    width: 300px;
+  }
+  
+  .sok-ruta input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+  }
+  
+  .sok-ruta button {
+    padding: 10px 15px;
+    border: 2px solid #4CAF50;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+    font-size: 16px;
+    transition: 0.2s;
+  }
+  
+  .sok-ruta button:hover {
+    background-color: #45a049;
+  }
