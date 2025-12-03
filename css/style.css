@@ -33,6 +33,7 @@ header a{
     padding: 20px;
     box-shadow: 0 3px 5px 0 rgb(81, 81, 81);
     border-radius: 15px;
+    font-size: larger;
 }
 
 header a:hover{
@@ -46,11 +47,15 @@ main {
     text-align: center;
     grid-area: ma;
     border-radius:30px;
-   box-shadow: 0 15px 20px black;
+    box-shadow: 0 15px 20px black;
     
-    font-family: "Chewy", system-ui;
-  font-weight: 300;
-  font-style: normal;
+   
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 
 aside {
@@ -58,11 +63,15 @@ aside {
     text-align: center;
     grid-area: as;
     border-radius:30px;
-
-    font-family: "Chewy", system-ui;
-    font-weight: 300;
-    font-style: normal;
     box-shadow: 0 15px 20px black;
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+
 }
 
 aside2{
@@ -70,11 +79,14 @@ aside2{
     text-align: center;
     grid-area: as2;
     border-radius:30px;
-
-    font-family: "Chewy", system-ui;
-    font-weight: 300;
-    font-style: normal;
     box-shadow: 0 15px 20px black;
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+          "wdth" 100;
 }
 
 footer { 
@@ -128,4 +140,18 @@ a{
   
   .sok-ruta button:hover {
     background-color: #45a049;
+  }
+
+  .rubrik{
+    font-family: "Chewy", system-ui;
+    font-weight: 600;
+    font-style: normal;
+
+  }
+
+
+  .produkter{
+    
+
+
   }
