@@ -55,7 +55,8 @@ main {
     font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+    "wdth" 100;
+    padding:20px;
 }
 
 aside {
@@ -71,10 +72,11 @@ aside {
     font-style: normal;
     font-variation-settings:
     "wdth" 100;
+    padding:20px;
 
 }
 
-aside2{
+aside2 {
     background-color: #8BC34A;
     text-align: center;
     grid-area: as2;
@@ -86,8 +88,22 @@ aside2{
     font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
-          "wdth" 100;
+    "wdth" 100;
+    padding:20px;
+
+
 }
+main p{
+    text-align: left;
+}
+aside p{
+    text-align: left;
+}
+aside2 p{
+    text-align: left;
+}
+
+
 
 footer { 
     display: flex;
@@ -150,7 +166,18 @@ a{
   }
 
 
-  .produkter{
+
+
+  .produkter-cards{
+    display: flex;
+    margin: 30px;
+    background-color: antiquewhite;
+    height: 75%;
+
+
+    
+    
+
     
 
 
