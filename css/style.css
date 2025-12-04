@@ -4,7 +4,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:15% 1fr 10fr;
+    grid-template-rows: 15% 1fr 10fr;
     background-color: #ffffff;
     grid-template-areas:
         "he he he"
@@ -15,7 +15,7 @@ body {
 }
 
 
-header { 
+header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -27,7 +27,7 @@ header {
     font-style: normal;
 }
 
-header a{
+header a {
     background-color: #6ac503;
     margin: 20px;
     padding: 20px;
@@ -36,34 +36,34 @@ header a{
     font-size: larger;
 }
 
-header a:hover{
+header a:hover {
     transform: scaleY(-5px);
     box-shadow: 0 15px 20px black;
-    /* överdrivet, för att se */ 
+    /* överdrivet, för att se */
 }
 
 main {
     background-color: #8BC34A;
     text-align: center;
     grid-area: ma;
-    border-radius:30px;
+    border-radius: 30px;
     box-shadow: 0 15px 20px black;
-    
-   
+
+
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
-    "wdth" 100;
-    padding:20px;
+        "wdth" 100;
+    padding: 20px;
 }
 
 aside {
     background-color: #8BC34A;
     text-align: center;
     grid-area: as;
-    border-radius:30px;
+    border-radius: 30px;
     box-shadow: 0 15px 20px black;
 
     font-family: "Open Sans", sans-serif;
@@ -71,8 +71,8 @@ aside {
     font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
-    "wdth" 100;
-    padding:20px;
+        "wdth" 100;
+    padding: 20px;
 
 }
 
@@ -80,7 +80,7 @@ aside2 {
     background-color: #8BC34A;
     text-align: center;
     grid-area: as2;
-    border-radius:30px;
+    border-radius: 30px;
     box-shadow: 0 15px 20px black;
 
     font-family: "Open Sans", sans-serif;
@@ -88,39 +88,44 @@ aside2 {
     font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
-    "wdth" 100;
-    padding:20px;
+        "wdth" 100;
+    padding: 20px;
 
 
 }
-main p{
-    text-align: left;
-}
-aside p{
-    text-align: left;
-}
-aside2 p{
+
+main p {
     text-align: left;
 }
 
+aside p {
+    text-align: left;
+}
+
+aside2 p {
+    text-align: left;
+}
 
 
-footer { 
+
+footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #8BC34A;
     grid-area: fo;
-    border-radius:10px;
+    border-radius: 10px;
 
     font-family: "Chewy", system-ui;
     font-weight: 400;
     font-style: normal;
 }
-img{
+
+img {
     width: 200px;
 }
-a{
+
+a {
     color: black;
     text-decoration: none;
     font-size: medium;
@@ -132,18 +137,18 @@ a{
     display: flex;
     align-items: center;
     width: 300px;
-  }
-  
-  .sok-ruta input {
+}
+
+.sok-ruta input {
     flex: 1;
     padding: 10px;
     border: 2px solid #4CAF50;
     border-right: none;
     border-radius: 8px 0 0 8px;
     font-size: 16px;
-  }
-  
-  .sok-ruta button {
+}
+
+.sok-ruta button {
     padding: 10px 15px;
     border: 2px solid #4CAF50;
     background-color: #4CAF50;
@@ -152,33 +157,42 @@ a{
     border-radius: 0 8px 8px 0;
     font-size: 16px;
     transition: 0.2s;
-  }
-  
-  .sok-ruta button:hover {
-    background-color: #45a049;
-  }
+}
 
-  .rubrik{
+.sok-ruta button:hover {
+    background-color: #45a049;
+}
+
+.rubrik {
     font-family: "Chewy", system-ui;
     font-weight: 600;
     font-style: normal;
 
-  }
+}
 
-
-
-
-  .produkter-cards{
+.produkter-cards {
     display: flex;
     margin: 30px;
     background-color: antiquewhite;
-    height: 75%;
+    height: auto;
+}
 
+.body2{
+    display: flex;
+    flex-direction: column;
+}
 
-    #body2
-    
+.sugror{
+    margin: 20px;
+    padding: 20px;
+    background-color: violet;
+    border-radius: 15px;
 
-    
+}
 
-
-  }
+.audi-rs{
+    margin: 20px;
+    padding: 40px;
+    background-color: #6ac503;
+    border-radius: 15px;
+}
