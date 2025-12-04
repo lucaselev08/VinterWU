@@ -196,3 +196,8 @@ a {
     background-color: #6ac503;
     border-radius: 15px;
 }
+
+.loga{
+    all: unset;
+    cursor: pointer;
+}
