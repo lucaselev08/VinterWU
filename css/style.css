@@ -5,12 +5,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 15% 1fr 10fr;
-    background-color: #ffffff;
+    background-color: #faebd7;
     grid-template-areas:
         "he he he"
         "as ma as2"
-        "fo fo fo ";
-
+        "fo fo fo "
+    ;
     color: white;
 }
 
@@ -23,8 +23,9 @@ header {
     grid-area: he;
 
     font-family: "Chewy", system-ui;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
+    font-size: 17px;
 }
 
 header a {
@@ -175,7 +176,7 @@ a {
 .produkter-cards {
     display: flex;
     margin: 30px;
-    background-color: antiquewhite;
+    background-color:#faebd7;
     height: auto;
 }
 
@@ -226,4 +227,8 @@ a {
     border-radius: 20px;
     padding:0px;
     border-image-width: 0%;
+}
+
+ul {
+    list-style: none;
 }
