@@ -221,7 +221,7 @@ a {
     list-style: none;
 }
 
-.body-info{
+.body3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 15% auto 10fr;
@@ -237,10 +237,13 @@ a {
 }
 
 
-.mainmm{
-    grid-area: mm;
+.mainm{
+    grid-area:mm;
     
     background-color: #6ac503;
+    border-radius: 50px;
+    padding: 50px;
+    margin: 20px;
  
 
 
