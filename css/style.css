@@ -217,6 +217,34 @@ a {
     border-image-width: 0%;
 }
 
-ul {
+.ul {
     list-style: none;
 }
+
+.body-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15% auto 10fr;
+    background-color: #faebd7;
+    grid-template-areas:
+        "he he he"
+        "mm mm mm"
+        "fo fo fo"
+    ;
+
+
+
+}
+
+
+.mainmm{
+    grid-area: mm;
+    
+    background-color: #6ac503;
+ 
+
+
+
+
+}
+
