@@ -4,7 +4,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 15% 1fr 10fr;
+    grid-template-rows: 15% 1fr 160px;
     background-color: #faebd7;
     grid-template-areas:
         "he he he"
@@ -58,6 +58,7 @@ main {
     font-variation-settings:
         "wdth" 100;
     padding: 20px;
+    font-size: 17px; 
 }
 
 aside {
@@ -74,7 +75,7 @@ aside {
     font-variation-settings:
         "wdth" 100;
     padding: 20px;
-
+    font-size: 17px; 
 }
 
 aside2 {
@@ -91,7 +92,7 @@ aside2 {
     font-variation-settings:
         "wdth" 100;
     padding: 20px;
-
+    font-size: 17px; 
 
 }
 
@@ -190,7 +191,7 @@ a {
 .body2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 15% auto 10fr;
+    grid-template-rows: 15% auto 160px;
     background-color: #faebd7;
     grid-template-areas:
         "he he he"
@@ -224,7 +225,7 @@ a {
 .body3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 15% auto 10fr;
+    grid-template-rows: 15% auto 160px;
     background-color: #faebd7;
     grid-template-areas:
         "he he he"
@@ -242,8 +243,9 @@ a {
     
     background-color: #6ac503;
     border-radius: 50px;
-    padding: 50px;
-    margin: 20px;
+    padding: 100px;
+    margin: 50px;
+    
  
 
 
