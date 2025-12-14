@@ -224,14 +224,16 @@ a {
 
 .body3{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 25% 50% 25%;
     grid-template-rows: 15% auto 160px;
     background-color: #faebd7;
     grid-template-areas:
         "he he he"
-        "mm mm mm"
+        "to1 mm to2"
         "fo fo fo"
     ;
+    overflow-x: hidden;
+
 
 
 
@@ -243,13 +245,49 @@ a {
     
     background-color: #6ac503;
     border-radius: 50px;
-    padding: 100px;
-    margin: 50px;
+    padding: 50px;
+    margin: 10px;
     
- 
+
+   
+
+}
+
+.mainm{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.tom{
+    grid-area:to1;
 
 
 
+}
+.tom2{
+    grid-area:to2;
+}
+.h1info{
+    font-size: 55px;
 
+}
+
+.h2info{
+    font-size: 34px;
+
+}
+
+.h3info{
+    font-size: 42px;
+
+}
+
+.infotext{
+
+    font-size: 21px;
 }
 
