@@ -78,7 +78,7 @@ aside {
     font-size: 17px; 
 }
 
-aside2 {
+.aside2 {
     background-color: #8BC34A;
     text-align: center;
     grid-area: as2;
@@ -207,6 +207,12 @@ a {
     background-color: #6ac503;
     border-radius: 15px;
     width: 150px;
+     
+
+}
+
+.produkt-klass img{
+    border-radius: 15px;
 }
 
 
