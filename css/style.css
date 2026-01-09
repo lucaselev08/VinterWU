@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    gap: 30px;
+    gap: 50px;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -58,7 +58,8 @@ main {
     font-variation-settings:
         "wdth" 100;
     padding: 20px;
-    font-size: 17px; 
+    font-size: 21px; 
+    
 }
 
 aside {
@@ -75,7 +76,7 @@ aside {
     font-variation-settings:
         "wdth" 100;
     padding: 20px;
-    font-size: 17px; 
+    font-size: 21px;
 }
 
 .aside2 {
@@ -92,9 +93,10 @@ aside {
     font-variation-settings:
         "wdth" 100;
     padding: 20px;
-    font-size: 17px; 
+    font-size: 21px;
 
 }
+
 
 main p {
     text-align: left;
@@ -145,7 +147,7 @@ a {
 .sok-ruta input {
     flex: 1;
     padding: 10px;
-    border: 2px solid #4CAF50;
+    border: 2px solid #208400;
     border-right: none;
     border-radius: 8px 0 0 8px;
     font-size: 16px;
@@ -154,8 +156,8 @@ a {
 
 .sok-ruta button {
     padding: 10px 15px;
-    border: 2px solid #4CAF50;
-    background-color: #4CAF50;
+    border: 2px solid #208400;
+    background-color: #208400;
     color: white;
     cursor: pointer;
     border-radius: 0 8px 8px 0;
@@ -172,7 +174,7 @@ a {
     font-family: "Chewy", system-ui;
     font-weight: 500;
     font-style: normal;
-    font-size: 30px;
+    font-size: 34px;
     
 
 }
