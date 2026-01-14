@@ -38,9 +38,9 @@ header a {
 }
 
 header a:hover {
-    transform: scaleY(-5px);
+    transform: translateY(-5px);
     box-shadow: 0 15px 20px black;
-    /* överdrivet, för att se */
+   
 }
 
 main {
@@ -52,8 +52,6 @@ main {
 
 
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
@@ -70,8 +68,7 @@ aside {
     box-shadow: 0 15px 20px black;
 
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
+    
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
@@ -87,8 +84,7 @@ aside {
     box-shadow: 0 15px 20px black;
 
         font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
+    
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
@@ -133,7 +129,7 @@ a {
     color: black;
     text-decoration: none;
     font-size: medium;
-    text-shadow: 5px;
+    
 }
 
 
@@ -177,6 +173,10 @@ a {
     font-size: 34px;
     
 
+}
+.produkt-rubrik{
+    font-family: "chewy", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
 }
 
 .produkter-cards {
@@ -266,8 +266,6 @@ a {
 
 .mainm{
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
